@@ -77,6 +77,13 @@
 .header {
     margin-bottom: 62px;
     padding: 32px 0 8px 0;
+    animation: show 1.5s ease-in-out;
+}
+
+@keyframes show {
+    from {
+        transform: translateY(-100px);
+    }
 }
 
 .header__block {
@@ -254,6 +261,12 @@
     color: var(--gray);
     background: transparent;
     outline: none;
+}
+
+.modal__input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--gray);
 }
 
 .modal__input:focus {
