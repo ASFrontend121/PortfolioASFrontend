@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>ASFrontent Portfolio</title>
+</head>
+<body class="page__body">
+    <header class="header">
+        <div class="container">
+            <div class="header__block">
+                <div class="logo">
+                    <a href="#" class="header__logo"><span>AS</span>Frontend</a>
+                </div>
+                <div class="header__nav">
+                    <nav class="nav">
+                        <ul class="list-reset nav__list">
+                            <li class="nav__item"><a href="#" class="nav__link nav__link-active"><span class="nav__hes">#</span>home</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link"><span class="nav__hes">#</span>works</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link"><span class="nav__hes">#</span>about-me</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link"><span class="nav__hes">#</span>contacts</a></li>
+                        </ul>
+                    </nav>
+                    <select class="nav__select" name="lang" id="lang">
+                        <option value="en">EN</option>
+                        <option value="ru">RU</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero__block">
+                    <div class="hero__content">
+                        <h1 class="title">Alexandr is a <span>Front-end Developer</span></h1>
+                        <p class="subtitle">I help business grow by crafting amazing web experiences. If you’re looking for a developer that likes to get stuff done,</p>
+                        <button id="btnModal" class="btn btn-reset">Contact me!!!</button>
+                    </div>
+                    <div></div>
+                    <div class="overlay"></div>
+                    <div class="modal">
+                        <form action="form" class="modal__form">
+                            <div class="modal__inputs">
+                                <input type="text" class="modal__input" value="Name">
+                                <input type="email" class="modal__input" value="Email">
+                            </div>
+                            <input type="text" class="modal__name" placeholder="Title">
+                            <textarea name="Message" id="modalText" class="modal__text" placeholder="Message"></textarea>
+                            <button class="btn-reset modal__btn">Send</button>
+                        </form>
+                        <button class="modal__close btn-reset">
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer"></footer>
+    <script src="assets/js/main.js?v=1"></script>
+</body>
+</html>
