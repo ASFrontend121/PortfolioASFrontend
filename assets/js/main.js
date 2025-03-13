@@ -15,11 +15,6 @@ function modal() {
         modal.classList.add('modal-active');
         overlay.classList.add('overlay-active');
     });
-
-    overlay.addEventListener('click', function() {
-        modal.classList.remove('modal-active');
-        overlay.classList.remove('overlay-active');
-    })
 };
 
 modal();
